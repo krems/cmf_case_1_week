@@ -1,6 +1,6 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.8.14)  20 SEP 2020 14:47
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.8.14)  20 SEP 2020 20:26
 entering extended mode
- \write18 enabled.
+ restricted \write18 enabled.
  %&-line parsing enabled.
 **cross-section-mean-revertion-report.tex
 (./cross-section-mean-revertion-report.tex
@@ -29,8 +29,8 @@ Package: babel 2020/02/14 3.40 The Babel package
 (/usr/share/texlive/texmf-dist/tex/generic/babel/switch.def
 File: switch.def 2020/02/14 3.40 Babel switching mechanism
 )
-(/usr/share/texlive/texmf-dist/tex/generic/babel-russian/russianb.ldf
-Language: russian 2017/08/12 1.3j Russian support for the Babel system
+(/usr/share/texlive/texmf-dist/tex/generic/babel-english/english.ldf
+Language: english 2017/06/06 v3.3r English support from the babel system
 
 (/usr/share/texlive/texmf-dist/tex/generic/babel/babel.def
 File: babel.def 2020/02/14 3.40 Babel common definitions
@@ -41,6 +41,16 @@ File: babel.def 2020/02/14 3.40 Babel common definitions
 \bbl@readstream=\read2
 \bbl@dirlevel=\count176
 )
+Package babel Info: \l@canadian = using hyphenrules for english
+(babel)             (\language0) on input line 102.
+Package babel Info: \l@australian = using hyphenrules for ukenglish
+(babel)             (\language7) on input line 105.
+Package babel Info: \l@newzealand = using hyphenrules for ukenglish
+(babel)             (\language7) on input line 108.
+)
+(/usr/share/texlive/texmf-dist/tex/generic/babel-russian/russianb.ldf
+Language: russian 2017/08/12 1.3j Russian support for the Babel system
+
 
 Package babel Warning: No Cyrillic font encoding has been loaded so far.
 (babel)                A font encoding should be declared before babel.
@@ -483,6 +493,9 @@ Package: iftex 2019/11/07 v1.0c TeX engine tests
 \Gm@layoutvoffset=\dimen176
 \Gm@dimlist=\toks28
 )
+(/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2020/02/11 v2.0o Standard LaTeX package
+)
 (/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
 Package: inputenc 2018/08/11 v1.3c Input encoding file
 \inpenc@prehook=\toks29
@@ -745,107 +758,15 @@ File: l3backend-pdfmode.def 2020-02-03 L3 backend support: PDF mode
 \l__pdf_internal_box=\box50
 )
 (./cross-section-mean-revertion-report.aux
-! Undefined control sequence.
-l.7 \abx@aux@refcontext
-                       {nyt/global//global/global}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-! LaTeX Error: Missing \begin{document}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.7 \abx@aux@refcontext{n
-                         yt/global//global/global}
-You're in trouble here.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-! Undefined control sequence.
-l.9 \abx@aux@cite
-                 {Reference1}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.10 \abx@aux@segm
-                  {0}{0}{Reference1}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.12 \abx@aux@cite
-                  {Reference2}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.13 \abx@aux@segm
-                  {0}{0}{Reference2}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.15 \abx@aux@cite
-                  {Reference3}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.16 \abx@aux@segm
-                  {0}{0}{Reference3}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.18 \abx@aux@cite
-                  {Reference1}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.19 \abx@aux@segm
-                  {0}{0}{Reference1}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
 LaTeX Font Info:    Trying to load font information for T2A+XCharter-TLF on inp
-ut line 23.
+ut line 4.
+
 (/usr/share/texlive/texmf-dist/tex/latex/xcharter/T2AXCharter-TLF.fd
 File: T2AXCharter-TLF.fd 2017/06/25 (autoinst) Font definitions for T2A/XCharte
 r-TLF.
 )
 LaTeX Font Info:    Font shape `T2A/XCharter-TLF/m/n' will be
-(Font)              scaled to size 10.0pt on input line 23.
+(Font)              scaled to size 10.0pt on input line 4.
 )
 \openout1 = `cross-section-mean-revertion-report.aux'.
 
@@ -879,11 +800,6 @@ LaTeX Font Info:    Trying to load font information for LY1+ptm on input line 4
 File: ly1ptm.fd 2001/02/01 font definitions for LY1/ptm using Berry names.
 )
 LaTeX Font Info:    ... okay on input line 43.
-
-Underfull \hbox (badness 10000) in paragraph at lines 7--43
-[]\T1/XCharter-TLF/m/n/10 nyt/global//global/global  Reference1
- []
-
 LaTeX Info: Redefining \microtypecontext on input line 43.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
@@ -895,6 +811,7 @@ LaTeX Info: Redefining \showhyphens on input line 43.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
+
 (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-bch.cfg
 File: mt-bch.cfg 2007/03/03 v1.5 microtype config. file: Bitstream Charter (RS)
 
@@ -968,17 +885,8 @@ Package lastpage Info: Please have a look at the pageslts package at
 
 \c@mv@tabular=\count284
 \c@mv@boldtabular=\count285
-LaTeX Font Info:    Font shape `T2A/XCharter-TLF/m/it' will be
-(Font)              scaled to size 10.0pt on input line 45.
-LaTeX Font Info:    Font shape `T2A/XCharter-TLF/m/n' will be
-(Font)              scaled to size 8.0pt on input line 45.
-[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
-
-
-]
 LaTeX Font Info:    Trying to load font information for OT1+phv on input line 4
 5.
-
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1phv.fd
 File: ot1phv.fd 2001/06/04 scalable font definitions for OT1/phv.
 )
@@ -993,81 +901,175 @@ Underfull \hbox (badness 10000) in paragraph at lines 45--45
 
 LaTeX Font Info:    Font shape `T2A/XCharter-TLF/m/n' will be
 (Font)              scaled to size 12.0pt on input line 45.
-LaTeX Font Info:    Font shape `T2A/XCharter-TLF/m/sc' will be
-(Font)              scaled to size 10.0pt on input line 53.
-Package microtype Info: Character `cyry ' is missing
-(microtype)             in font `T2A/XCharter-TLF/m/sc/10'.
-(microtype)             Ignoring protrusion settings for this character.
 LaTeX Font Info:    Font shape `T2A/XCharter-TLF/m/n' will be
-(Font)              scaled to size 28.92499pt on input line 53.
-LaTeX Font Info:    Font shape `T2A/XCharter-TLF/m/n' will be
-(Font)              scaled to size 42.75677pt on input line 53.
-Package lettrine.sty Info: Targeted height = 28.92499pt
-(lettrine.sty)             (no accent, loversize=0),
-(lettrine.sty)             Lettrine height = 28.92496pt (\color {DarkGoldenrod}
-{L});
-(lettrine.sty)             reported on input line 53.
+(Font)              scaled to size 14.4pt on input line 57.
 LaTeX Font Info:    Font shape `T2A/XCharter-TLF/b/n' will be
-(Font)              scaled to size 10.0pt on input line 53.
+(Font)              scaled to size 14.4pt on input line 57.
 
-Underfull \hbox (badness 3354) in paragraph at lines 53--54
-[][]\T2A/XCharter-TLF/b/n/10 orem ipsum dolor sit amet, consectetur
- []
+! LaTeX Error: Command \CYRV unavailable in encoding OT1.
 
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.57 \section{–í–≤–µ–¥–µ–Ω–∏–µ}
+                               
+? 
 
-Underfull \hbox (badness 4242) in paragraph at lines 53--54
-\T2A/XCharter-TLF/b/n/10 mattis vel. Vestibulum ante ipsum primis in
- []
+! LaTeX Error: Command \cyrv unavailable in encoding OT1.
 
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.57 \section{–í–≤–µ–¥–µ–Ω–∏–µ}
+                               
+? 
 
-Underfull \hbox (badness 1147) in paragraph at lines 53--54
-\T2A/XCharter-TLF/b/n/10 faucibus orci luctus et ultrices posuere cubilia
- []
+! LaTeX Error: Command \cyre unavailable in encoding OT1.
 
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.57 \section{–í–≤–µ–¥–µ–Ω–∏–µ}
+                               
+? 
 
-Underfull \hbox (badness 2418) in paragraph at lines 53--54
-\T2A/XCharter-TLF/b/n/10 facilisis. Praesent in consequat leo. Maecenas
- []
+! LaTeX Error: Command \cyrd unavailable in encoding OT1.
 
-LaTeX Font Info:    Font shape `T2A/XCharter-TLF/m/n' will be
-(Font)              scaled to size 14.4pt on input line 59.
-LaTeX Font Info:    Font shape `T2A/XCharter-TLF/b/n' will be
-(Font)              scaled to size 14.4pt on input line 59.
-! Undefined control sequence.
-l.61 This sentence requires citation \citep
-                                           {Reference1}. This sentence requi...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.57 \section{–í–≤–µ–¥–µ–Ω–∏–µ}
+                               
+? 
 
-! Undefined control sequence.
-l.61 ...o imply that it is better supported \citep
-                                                  {Reference2,Reference3}. F...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+! LaTeX Error: Command \cyre unavailable in encoding OT1.
 
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.57 \section{–í–≤–µ–¥–µ–Ω–∏–µ}
+                               
+? 
 
-LaTeX Warning: Citation `Reference1' on page 2 undefined on input line 61.
+! LaTeX Error: Command \cyrn unavailable in encoding OT1.
 
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.57 \section{–í–≤–µ–¥–µ–Ω–∏–µ}
+                               
+? 
 
-LaTeX Warning: Reference `bear' on page 2 undefined on input line 61.
+! LaTeX Error: Command \cyri unavailable in encoding OT1.
 
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.57 \section{–í–≤–µ–¥–µ–Ω–∏–µ}
+                               
+? 
 
-Underfull \hbox (badness 2689) in paragraph at lines 61--62
-\T2A/XCharter-TLF/m/n/10 (+20) This sentence requires citation Reference1. This
+! LaTeX Error: Command \cyre unavailable in encoding OT1.
 
- []
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.57 \section{–í–≤–µ–¥–µ–Ω–∏–µ}
+                               
+? 
 
+! LaTeX Error: Command \CYRA unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.66 \section{–ê–ª–≥–æ—Ä–∏—Ç–º}
+                               
+? 
+
+! LaTeX Error: Command \cyrl unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.66 \section{–ê–ª–≥–æ—Ä–∏—Ç–º}
+                               
+? 
+
+! LaTeX Error: Command \cyrg unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.66 \section{–ê–ª–≥–æ—Ä–∏—Ç–º}
+                               
+? 
+
+! LaTeX Error: Command \cyro unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.66 \section{–ê–ª–≥–æ—Ä–∏—Ç–º}
+                               
+? 
+
+! LaTeX Error: Command \cyrr unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.66 \section{–ê–ª–≥–æ—Ä–∏—Ç–º}
+                               
+? 
+
+! LaTeX Error: Command \cyri unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.66 \section{–ê–ª–≥–æ—Ä–∏—Ç–º}
+                               
+? 
+
+! LaTeX Error: Command \cyrt unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.66 \section{–ê–ª–≥–æ—Ä–∏—Ç–º}
+                               
+? 
+
+! LaTeX Error: Command \cyrm unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.66 \section{–ê–ª–≥–æ—Ä–∏—Ç–º}
+                               
+? 
 (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-cmr.cfg
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
 (RS)
 )
-LaTeX Font Info:    Trying to load font information for U+msa on input line 67.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 71.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
@@ -1076,7 +1078,7 @@ File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 67.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 71.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
@@ -1085,122 +1087,1412 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msb.cfg
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
-Underfull \hbox (badness 1881) in paragraph at lines 75--76
-\T2A/XCharter-TLF/m/n/10 (+20) condimentum. Fusce eu velit vitae libero varius
- []
+Underfull \hbox (badness 10000) in paragraph at lines 71--72
 
-LaTeX Font Info:    Font shape `T2A/XCharter-TLF/b/n' will be
-(Font)              scaled to size 12.0pt on input line 81.
-
-Underfull \hbox (badness 1158) in paragraph at lines 83--84
-\T2A/XCharter-TLF/m/n/10 (+20) mollis sem sit amet, pellentesque quam. Aenean
  []
 
 
-Underfull \hbox (badness 1152) in paragraph at lines 83--84
-\T2A/XCharter-TLF/m/n/10 (+20) magna eu, hendrerit pulvinar orci. Mauris porta
- []
+LaTeX Warning: Command \~ invalid in math mode on input line 72.
 
-[2
+! Missing $ inserted.
+<inserted text> 
+                $
+l.72 $$\epsilon(t) \~ \sigma
+                            (t) \cdot N(0, R)$$\\
+? 
+! Improper \spacefactor.
+<recently read> \spacefactor 
+                             
+l.72 $$\epsilon(t) \~ \sigma
+                            (t) \cdot N(0, R)$$\\
+? 
+! Extra }, or forgotten $.
+\MT@orig@add@accent ...@spacefactor \spacefactor }
+                                                  \let \maybe@load@fontshape...
+l.72 $$\epsilon(t) \~ \sigma
+                            (t) \cdot N(0, R)$$\\
+? 
+! Please use \mathaccent for accents in math mode.
+\MT@orig@add@accent ...gnorespaces \relax \accent 
+                                                  #1 #2\egroup \spacefactor ...
+l.72 $$\epsilon(t) \~ \sigma
+                            (t) \cdot N(0, R)$$\\
+? 
+! Extra }, or forgotten $.
+\MT@orig@add@accent ...relax \accent #1 #2\egroup 
+                                                  \spacefactor \accent@space...
+l.72 $$\epsilon(t) \~ \sigma
+                            (t) \cdot N(0, R)$$\\
+? 
+! You can't use `\spacefactor' in math mode.
+\MT@orig@add@accent ... #1 #2\egroup \spacefactor 
+                                                  \accent@spacefactor 
+l.72 $$\epsilon(t) \~ \sigma
+                            (t) \cdot N(0, R)$$\\
+? 
 
-]
-LaTeX Font Info:    Trying to load font information for TS1+XCharter-TLF on inp
-ut line 86.
- (/usr/share/texlive/texmf-dist/tex/latex/xcharter/TS1XCharter-TLF.fd
-File: TS1XCharter-TLF.fd 2017/06/25 (autoinst) Font definitions for TS1/XCharte
-r-TLF.
-)
-LaTeX Font Info:    Font shape `TS1/XCharter-TLF/m/n' will be
-(Font)              scaled to size 10.0pt on input line 86.
-Package microtype Info: Character `textlbrackdbl ' is missing
-(microtype)             in font `TS1/XCharter-TLF/m/n/10'.
-(microtype)             Ignoring protrusion settings for this character.
-Package microtype Info: Character `textrbrackdbl ' is missing
-(microtype)             in font `TS1/XCharter-TLF/m/n/10'.
-(microtype)             Ignoring protrusion settings for this character.
-Package microtype Info: Character `texttildelow ' is missing
-(microtype)             in font `TS1/XCharter-TLF/m/n/10'.
-(microtype)             Ignoring protrusion settings for this character.
-
-Underfull \hbox (badness 1009) in paragraph at lines 91--92
-\T2A/XCharter-TLF/m/n/10 (+20) dui vel bibendum bibendum, tortor ligula auctor
- []
-
-
-Underfull \hbox (badness 1888) in paragraph at lines 91--92
-\T2A/XCharter-TLF/m/n/10 (+20) at vulputate libero, sit amet elementum magna.
- []
-
-
-Underfull \hbox (badness 4156) in paragraph at lines 91--92
-\T2A/XCharter-TLF/m/n/10 (+20) eget dolor. Curabitur consectetur tempus lacus,
- []
-
-
-Underfull \hbox (badness 3492) in paragraph at lines 91--92
-\T2A/XCharter-TLF/m/n/10 (+20) sit amet luctus mauris interdum vel. Curabitur
- []
+LaTeX Warning: Command \CYRP invalid in math mode on input line 74.
 
 
-Underfull \hbox (badness 1881) in paragraph at lines 98--99
-\T2A/XCharter-TLF/m/n/10 (+20) condimentum. Fusce eu velit vitae libero varius
- []
+LaTeX Warning: Command \cyro invalid in math mode on input line 74.
 
 
-Underfull \hbox (badness 2221) in paragraph at lines 106--107
-\T2A/XCharter-TLF/m/n/10 (+20) nostra, per inceptos himenaeos. Mauris placerat
- []
+LaTeX Warning: Command \cyrd invalid in math mode on input line 74.
 
 
-Underfull \hbox (badness 2799) in paragraph at lines 106--107
-\T2A/XCharter-TLF/m/n/10 (+20) Phasellus at nibh ut tortor hendrerit accumsan.
- []
+LaTeX Warning: Command \cyrb invalid in math mode on input line 74.
 
-LaTeX Font Info:    Font shape `T2A/XCharter-TLF/m/n' will be
-(Font)              scaled to size 9.0pt on input line 117.
-LaTeX Font Info:    Font shape `T2A/XCharter-TLF/b/n' will be
-(Font)              scaled to size 9.0pt on input line 117.
-LaTeX Font Info:    Font shape `T2A/XCharter-TLF/m/it' will be
-(Font)              scaled to size 9.0pt on input line 117.
 
-! LaTeX Error: Command \CYRA unavailable in encoding OT1.
+LaTeX Warning: Command \cyro invalid in math mode on input line 74.
+
+
+LaTeX Warning: Command \cyrr invalid in math mode on input line 74.
+
+
+LaTeX Warning: Command \cyrp invalid in math mode on input line 74.
+
+
+LaTeX Warning: Command \cyra invalid in math mode on input line 74.
+
+
+LaTeX Warning: Command \cyrr invalid in math mode on input line 74.
+
+
+LaTeX Warning: Command \cyra invalid in math mode on input line 74.
+
+
+LaTeX Warning: Command \cyrm invalid in math mode on input line 74.
+
+
+LaTeX Warning: Command \cyre invalid in math mode on input line 74.
+
+
+LaTeX Warning: Command \cyrt invalid in math mode on input line 74.
+
+
+LaTeX Warning: Command \cyrr invalid in math mode on input line 74.
+
+
+LaTeX Warning: Command \cyro invalid in math mode on input line 74.
+
+
+LaTeX Warning: Command \cyrv invalid in math mode on input line 74.
+
+
+LaTeX Warning: Command \cyri invalid in math mode on input line 74.
+
+
+LaTeX Warning: Command \cyrd invalid in math mode on input line 74.
+
+
+LaTeX Warning: Command \cyrl invalid in math mode on input line 74.
+
+
+LaTeX Warning: Command \cyrya invalid in math mode on input line 74.
+
+
+LaTeX Warning: Command \cyrm invalid in math mode on input line 74.
+
+
+LaTeX Warning: Command \cyro invalid in math mode on input line 74.
+
+
+LaTeX Warning: Command \cyrd invalid in math mode on input line 74.
+
+
+LaTeX Warning: Command \cyre invalid in math mode on input line 74.
+
+
+LaTeX Warning: Command \cyrl invalid in math mode on input line 74.
+
+
+LaTeX Warning: Command \cyri invalid in math mode on input line 74.
+
+
+LaTeX Warning: Command \cyrd invalid in math mode on input line 74.
+
+
+LaTeX Warning: Command \cyre invalid in math mode on input line 74.
+
+
+LaTeX Warning: Command \cyrl invalid in math mode on input line 74.
+
+
+LaTeX Warning: Command \cyra invalid in math mode on input line 74.
+
+
+LaTeX Warning: Command \cyre invalid in math mode on input line 74.
+
+
+LaTeX Warning: Command \cyrt invalid in math mode on input line 74.
+
+
+LaTeX Warning: Command \cyrs invalid in math mode on input line 74.
+
+
+LaTeX Warning: Command \cyrya invalid in math mode on input line 74.
+
+
+LaTeX Warning: Command \cyrp invalid in math mode on input line 74.
+
+
+LaTeX Warning: Command \cyrr invalid in math mode on input line 74.
+
+
+LaTeX Warning: Command \cyro invalid in math mode on input line 74.
+
+
+LaTeX Warning: Command \cyrs invalid in math mode on input line 74.
+
+
+LaTeX Warning: Command \cyrt invalid in math mode on input line 74.
+
+
+LaTeX Warning: Command \cyrery invalid in math mode on input line 74.
+
+
+LaTeX Warning: Command \cyrm invalid in math mode on input line 74.
+
+
+LaTeX Warning: Command \cyrp invalid in math mode on input line 74.
+
+
+LaTeX Warning: Command \cyre invalid in math mode on input line 74.
+
+
+LaTeX Warning: Command \cyrr invalid in math mode on input line 74.
+
+
+LaTeX Warning: Command \cyre invalid in math mode on input line 74.
+
+
+LaTeX Warning: Command \cyrb invalid in math mode on input line 74.
+
+
+LaTeX Warning: Command \cyro invalid in math mode on input line 74.
+
+
+LaTeX Warning: Command \cyrr invalid in math mode on input line 74.
+
+
+LaTeX Warning: Command \cyro invalid in math mode on input line 74.
+
+
+LaTeX Warning: Command \cyrm invalid in math mode on input line 74.
+
+
+LaTeX Warning: Command \cyrv invalid in math mode on input line 74.
+
+
+LaTeX Warning: Command \cyrr invalid in math mode on input line 74.
+
+
+LaTeX Warning: Command \cyre invalid in math mode on input line 74.
+
+
+LaTeX Warning: Command \cyrz invalid in math mode on input line 74.
+
+
+LaTeX Warning: Command \cyru invalid in math mode on input line 74.
+
+
+LaTeX Warning: Command \cyrl invalid in math mode on input line 74.
+
+
+LaTeX Warning: Command \cyrsftsn invalid in math mode on input line 74.
+
+
+LaTeX Warning: Command \cyrt invalid in math mode on input line 74.
+
+
+LaTeX Warning: Command \cyra invalid in math mode on input line 74.
+
+
+LaTeX Warning: Command \cyrt invalid in math mode on input line 74.
+
+
+LaTeX Warning: Command \cyre invalid in math mode on input line 74.
+
+
+LaTeX Warning: Command \cyrk invalid in math mode on input line 74.
+
+
+LaTeX Warning: Command \cyro invalid in math mode on input line 74.
+
+
+LaTeX Warning: Command \cyrt invalid in math mode on input line 74.
+
+
+LaTeX Warning: Command \cyro invalid in math mode on input line 74.
+
+
+LaTeX Warning: Command \cyrr invalid in math mode on input line 74.
+
+
+LaTeX Warning: Command \cyro invalid in math mode on input line 74.
+
+
+LaTeX Warning: Command \cyrg invalid in math mode on input line 74.
+
+
+LaTeX Warning: Command \cyro invalid in math mode on input line 74.
+
+
+LaTeX Warning: Command \cyrv invalid in math mode on input line 74.
+
+
+LaTeX Warning: Command \cyrery invalid in math mode on input line 74.
+
+
+LaTeX Warning: Command \cyrb invalid in math mode on input line 74.
+
+
+LaTeX Warning: Command \cyri invalid in math mode on input line 74.
+
+
+LaTeX Warning: Command \cyrr invalid in math mode on input line 74.
+
+
+LaTeX Warning: Command \cyra invalid in math mode on input line 74.
+
+
+LaTeX Warning: Command \cyryu invalid in math mode on input line 74.
+
+
+LaTeX Warning: Command \cyrt invalid in math mode on input line 74.
+
+
+LaTeX Warning: Command \cyrs invalid in math mode on input line 74.
+
+
+LaTeX Warning: Command \cyrya invalid in math mode on input line 74.
+
+
+LaTeX Warning: Command \cyrp invalid in math mode on input line 74.
+
+
+LaTeX Warning: Command \cyra invalid in math mode on input line 74.
+
+
+LaTeX Warning: Command \cyrr invalid in math mode on input line 74.
+
+
+LaTeX Warning: Command \cyra invalid in math mode on input line 74.
+
+
+LaTeX Warning: Command \cyrm invalid in math mode on input line 74.
+
+
+LaTeX Warning: Command \cyre invalid in math mode on input line 74.
+
+
+LaTeX Warning: Command \cyrt invalid in math mode on input line 74.
+
+
+LaTeX Warning: Command \cyrr invalid in math mode on input line 74.
+
+
+LaTeX Warning: Command \cyrery invalid in math mode on input line 74.
+
+
+LaTeX Warning: Command \cyrs invalid in math mode on input line 75.
+
+
+LaTeX Warning: Command \cyrk invalid in math mode on input line 75.
+
+
+LaTeX Warning: Command \cyro invalid in math mode on input line 75.
+
+
+LaTeX Warning: Command \cyrt invalid in math mode on input line 75.
+
+
+LaTeX Warning: Command \cyro invalid in math mode on input line 75.
+
+
+LaTeX Warning: Command \cyrr invalid in math mode on input line 75.
+
+
+LaTeX Warning: Command \cyrery invalid in math mode on input line 75.
+
+
+LaTeX Warning: Command \cyrm invalid in math mode on input line 75.
+
+
+LaTeX Warning: Command \cyri invalid in math mode on input line 75.
+
+
+LaTeX Warning: Command \cyrm invalid in math mode on input line 75.
+
+
+LaTeX Warning: Command \cyro invalid in math mode on input line 75.
+
+
+LaTeX Warning: Command \cyrd invalid in math mode on input line 75.
+
+
+LaTeX Warning: Command \cyre invalid in math mode on input line 75.
+
+
+LaTeX Warning: Command \cyrl invalid in math mode on input line 75.
+
+
+LaTeX Warning: Command \cyrsftsn invalid in math mode on input line 75.
+
+
+LaTeX Warning: Command \cyrv invalid in math mode on input line 75.
+
+
+LaTeX Warning: Command \cyrery invalid in math mode on input line 75.
+
+
+LaTeX Warning: Command \cyrd invalid in math mode on input line 75.
+
+
+LaTeX Warning: Command \cyra invalid in math mode on input line 75.
+
+
+LaTeX Warning: Command \cyre invalid in math mode on input line 75.
+
+
+LaTeX Warning: Command \cyrt invalid in math mode on input line 75.
+
+
+LaTeX Warning: Command \cyrn invalid in math mode on input line 75.
+
+
+LaTeX Warning: Command \cyra invalid in math mode on input line 75.
+
+
+LaTeX Warning: Command \cyri invalid in math mode on input line 75.
+
+
+LaTeX Warning: Command \cyrm invalid in math mode on input line 75.
+
+
+LaTeX Warning: Command \cyre invalid in math mode on input line 75.
+
+
+LaTeX Warning: Command \cyrn invalid in math mode on input line 75.
+
+
+LaTeX Warning: Command \cyrsftsn invalid in math mode on input line 75.
+
+
+LaTeX Warning: Command \cyrsh invalid in math mode on input line 75.
+
+
+LaTeX Warning: Command \cyri invalid in math mode on input line 75.
+
+
+LaTeX Warning: Command \cyrishrt invalid in math mode on input line 75.
+
+
+LaTeX Warning: Command \cyrp invalid in math mode on input line 75.
+
+
+LaTeX Warning: Command \cyro invalid in math mode on input line 75.
+
+
+LaTeX Warning: Command \cyrk invalid in math mode on input line 75.
+
+
+LaTeX Warning: Command \cyra invalid in math mode on input line 75.
+
+
+LaTeX Warning: Command \cyrz invalid in math mode on input line 75.
+
+
+LaTeX Warning: Command \cyra invalid in math mode on input line 75.
+
+
+LaTeX Warning: Command \cyrt invalid in math mode on input line 75.
+
+
+LaTeX Warning: Command \cyre invalid in math mode on input line 75.
+
+
+LaTeX Warning: Command \cyrl invalid in math mode on input line 75.
+
+
+LaTeX Warning: Command \cyrsftsn invalid in math mode on input line 75.
+
+
+LaTeX Warning: Command \CYRT invalid in math mode on input line 75.
+
+
+LaTeX Warning: Command \cyra invalid in math mode on input line 75.
+
+
+LaTeX Warning: Command \cyrk invalid in math mode on input line 75.
+
+
+LaTeX Warning: Command \cyro invalid in math mode on input line 75.
+
+
+LaTeX Warning: Command \cyrishrt invalid in math mode on input line 75.
+
+
+LaTeX Warning: Command \cyrp invalid in math mode on input line 75.
+
+
+LaTeX Warning: Command \cyre invalid in math mode on input line 75.
+
+
+LaTeX Warning: Command \cyrr invalid in math mode on input line 75.
+
+
+LaTeX Warning: Command \cyre invalid in math mode on input line 75.
+
+
+LaTeX Warning: Command \cyrb invalid in math mode on input line 75.
+
+
+LaTeX Warning: Command \cyro invalid in math mode on input line 75.
+
+
+LaTeX Warning: Command \cyrr invalid in math mode on input line 75.
+
+
+LaTeX Warning: Command \cyrd invalid in math mode on input line 75.
+
+
+LaTeX Warning: Command \cyre invalid in math mode on input line 75.
+
+
+LaTeX Warning: Command \cyrl invalid in math mode on input line 75.
+
+
+LaTeX Warning: Command \cyra invalid in math mode on input line 75.
+
+
+LaTeX Warning: Command \cyre invalid in math mode on input line 75.
+
+
+LaTeX Warning: Command \cyrt invalid in math mode on input line 75.
+
+
+LaTeX Warning: Command \cyrs invalid in math mode on input line 75.
+
+
+LaTeX Warning: Command \cyrya invalid in math mode on input line 75.
+
+
+LaTeX Warning: Command \cyrn invalid in math mode on input line 75.
+
+
+LaTeX Warning: Command \cyra invalid in math mode on input line 75.
+
+
+LaTeX Warning: Command \cyrd invalid in math mode on input line 75.
+
+
+LaTeX Warning: Command \cyrv invalid in math mode on input line 75.
+
+
+LaTeX Warning: Command \cyrs invalid in math mode on input line 75.
+
+
+LaTeX Warning: Command \cyre invalid in math mode on input line 75.
+
+
+LaTeX Warning: Command \cyrm invalid in math mode on input line 75.
+
+
+LaTeX Warning: Command \cyri invalid in math mode on input line 75.
+
+
+LaTeX Warning: Command \cyrr invalid in math mode on input line 75.
+
+
+LaTeX Warning: Command \cyrya invalid in math mode on input line 75.
+
+
+LaTeX Warning: Command \cyrd invalid in math mode on input line 75.
+
+
+LaTeX Warning: Command \cyra invalid in math mode on input line 75.
+
+
+LaTeX Warning: Command \cyrm invalid in math mode on input line 75.
+
+
+LaTeX Warning: Command \cyri invalid in math mode on input line 75.
+
+
+LaTeX Warning: Command \cyrd invalid in math mode on input line 75.
+
+
+LaTeX Warning: Command \cyra invalid in math mode on input line 75.
+
+
+LaTeX Warning: Command \cyrn invalid in math mode on input line 75.
+
+
+LaTeX Warning: Command \cyrn invalid in math mode on input line 75.
+
+
+LaTeX Warning: Command \cyrery invalid in math mode on input line 75.
+
+
+LaTeX Warning: Command \cyrh invalid in math mode on input line 75.
+
+
+LaTeX Warning: Command \cyri invalid in math mode on input line 75.
+
+
+LaTeX Warning: Command \cyrv invalid in math mode on input line 75.
+
+
+LaTeX Warning: Command \cyrery invalid in math mode on input line 75.
+
+
+LaTeX Warning: Command \cyrb invalid in math mode on input line 75.
+
+
+LaTeX Warning: Command \cyri invalid in math mode on input line 75.
+
+
+LaTeX Warning: Command \cyrr invalid in math mode on input line 75.
+
+
+LaTeX Warning: Command \cyra invalid in math mode on input line 75.
+
+
+LaTeX Warning: Command \cyre invalid in math mode on input line 75.
+
+
+LaTeX Warning: Command \cyrt invalid in math mode on input line 75.
+
+
+LaTeX Warning: Command \cyrs invalid in math mode on input line 75.
+
+
+LaTeX Warning: Command \cyrya invalid in math mode on input line 75.
+
+
+LaTeX Warning: Command \cyrn invalid in math mode on input line 75.
+
+
+LaTeX Warning: Command \cyra invalid in math mode on input line 75.
+
+
+LaTeX Warning: Command \cyri invalid in math mode on input line 75.
+
+
+LaTeX Warning: Command \cyrb invalid in math mode on input line 75.
+
+
+LaTeX Warning: Command \cyro invalid in math mode on input line 75.
+
+
+LaTeX Warning: Command \cyrl invalid in math mode on input line 75.
+
+
+LaTeX Warning: Command \cyre invalid in math mode on input line 75.
+
+
+LaTeX Warning: Command \cyre invalid in math mode on input line 75.
+
+
+LaTeX Warning: Command \cyrch invalid in math mode on input line 76.
+
+
+LaTeX Warning: Command \cyra invalid in math mode on input line 76.
+
+
+LaTeX Warning: Command \cyrs invalid in math mode on input line 76.
+
+
+LaTeX Warning: Command \cyrt invalid in math mode on input line 76.
+
+
+LaTeX Warning: Command \cyro invalid in math mode on input line 76.
+
+
+LaTeX Warning: Command \cyrv invalid in math mode on input line 76.
+
+
+LaTeX Warning: Command \cyrs invalid in math mode on input line 76.
+
+
+LaTeX Warning: Command \cyrt invalid in math mode on input line 76.
+
+
+LaTeX Warning: Command \cyrr invalid in math mode on input line 76.
+
+
+LaTeX Warning: Command \cyre invalid in math mode on input line 76.
+
+
+LaTeX Warning: Command \cyrch invalid in math mode on input line 76.
+
+
+LaTeX Warning: Command \cyra invalid in math mode on input line 76.
+
+
+LaTeX Warning: Command \cyryu invalid in math mode on input line 76.
+
+
+LaTeX Warning: Command \cyrshch invalid in math mode on input line 76.
+
+
+LaTeX Warning: Command \cyri invalid in math mode on input line 76.
+
+
+LaTeX Warning: Command \cyrishrt invalid in math mode on input line 76.
+
+
+LaTeX Warning: Command \cyrs invalid in math mode on input line 76.
+
+
+LaTeX Warning: Command \cyrya invalid in math mode on input line 76.
+
+
+LaTeX Warning: Command \cyrn invalid in math mode on input line 76.
+
+
+LaTeX Warning: Command \cyra invalid in math mode on input line 76.
+
+
+LaTeX Warning: Command \cyrb invalid in math mode on input line 76.
+
+
+LaTeX Warning: Command \cyro invalid in math mode on input line 76.
+
+
+LaTeX Warning: Command \cyrr invalid in math mode on input line 76.
+
+
+LaTeX Warning: Command \CYRD invalid in math mode on input line 77.
+
+
+LaTeX Warning: Command \cyrl invalid in math mode on input line 77.
+
+
+LaTeX Warning: Command \cyrya invalid in math mode on input line 77.
+
+
+LaTeX Warning: Command \cyrf invalid in math mode on input line 77.
+
+
+LaTeX Warning: Command \cyri invalid in math mode on input line 77.
+
+
+LaTeX Warning: Command \cyrl invalid in math mode on input line 77.
+
+
+LaTeX Warning: Command \cyrsftsn invalid in math mode on input line 77.
+
+
+LaTeX Warning: Command \cyrt invalid in math mode on input line 77.
+
+
+LaTeX Warning: Command \cyrr invalid in math mode on input line 77.
+
+
+LaTeX Warning: Command \cyro invalid in math mode on input line 77.
+
+
+LaTeX Warning: Command \cyrv invalid in math mode on input line 77.
+
+
+LaTeX Warning: Command \cyra invalid in math mode on input line 77.
+
+
+LaTeX Warning: Command \cyrn invalid in math mode on input line 77.
+
+
+LaTeX Warning: Command \cyrn invalid in math mode on input line 77.
+
+
+LaTeX Warning: Command \cyrery invalid in math mode on input line 77.
+
+
+LaTeX Warning: Command \cyrh invalid in math mode on input line 77.
+
+
+LaTeX Warning: Command \cyrr invalid in math mode on input line 77.
+
+
+LaTeX Warning: Command \cyrya invalid in math mode on input line 77.
+
+
+LaTeX Warning: Command \cyrd invalid in math mode on input line 77.
+
+
+LaTeX Warning: Command \cyro invalid in math mode on input line 77.
+
+
+LaTeX Warning: Command \cyrv invalid in math mode on input line 77.
+
+
+LaTeX Warning: Command \cyrr invalid in math mode on input line 77.
+
+
+LaTeX Warning: Command \cyra invalid in math mode on input line 77.
+
+
+LaTeX Warning: Command \cyrs invalid in math mode on input line 77.
+
+
+LaTeX Warning: Command \cyrs invalid in math mode on input line 77.
+
+
+LaTeX Warning: Command \cyrch invalid in math mode on input line 77.
+
+
+LaTeX Warning: Command \cyri invalid in math mode on input line 77.
+
+
+LaTeX Warning: Command \cyrt invalid in math mode on input line 77.
+
+
+LaTeX Warning: Command \cyrery invalid in math mode on input line 77.
+
+
+LaTeX Warning: Command \cyrv invalid in math mode on input line 77.
+
+
+LaTeX Warning: Command \cyra invalid in math mode on input line 77.
+
+
+LaTeX Warning: Command \cyre invalid in math mode on input line 77.
+
+
+LaTeX Warning: Command \cyrt invalid in math mode on input line 77.
+
+
+LaTeX Warning: Command \cyrs invalid in math mode on input line 77.
+
+
+LaTeX Warning: Command \cyrya invalid in math mode on input line 77.
+
+
+LaTeX Warning: Command \cyrk invalid in math mode on input line 77.
+
+
+LaTeX Warning: Command \cyro invalid in math mode on input line 77.
+
+
+LaTeX Warning: Command \cyrr invalid in math mode on input line 77.
+
+
+LaTeX Warning: Command \cyrr invalid in math mode on input line 77.
+
+
+LaTeX Warning: Command \cyre invalid in math mode on input line 77.
+
+
+LaTeX Warning: Command \cyrl invalid in math mode on input line 77.
+
+
+LaTeX Warning: Command \cyrya invalid in math mode on input line 77.
+
+
+LaTeX Warning: Command \cyrc invalid in math mode on input line 77.
+
+
+LaTeX Warning: Command \cyri invalid in math mode on input line 77.
+
+
+LaTeX Warning: Command \cyro invalid in math mode on input line 77.
+
+
+LaTeX Warning: Command \cyrn invalid in math mode on input line 77.
+
+
+LaTeX Warning: Command \cyrn invalid in math mode on input line 77.
+
+
+LaTeX Warning: Command \cyra invalid in math mode on input line 77.
+
+
+LaTeX Warning: Command \cyrya invalid in math mode on input line 77.
+
+
+LaTeX Warning: Command \cyrm invalid in math mode on input line 77.
+
+
+LaTeX Warning: Command \cyra invalid in math mode on input line 77.
+
+
+LaTeX Warning: Command \cyrt invalid in math mode on input line 77.
+
+
+LaTeX Warning: Command \cyrr invalid in math mode on input line 77.
+
+
+LaTeX Warning: Command \cyri invalid in math mode on input line 77.
+
+
+LaTeX Warning: Command \cyrc invalid in math mode on input line 77.
+
+
+LaTeX Warning: Command \cyra invalid in math mode on input line 77.
+
+
+LaTeX Warning: Command \CYRO invalid in math mode on input line 77.
+
+
+LaTeX Warning: Command \cyrn invalid in math mode on input line 77.
+
+
+LaTeX Warning: Command \cyra invalid in math mode on input line 77.
+
+
+LaTeX Warning: Command \cyrp invalid in math mode on input line 77.
+
+
+LaTeX Warning: Command \cyro invalid in math mode on input line 77.
+
+
+LaTeX Warning: Command \cyrn invalid in math mode on input line 77.
+
+
+LaTeX Warning: Command \cyra invalid in math mode on input line 77.
+
+
+LaTeX Warning: Command \cyrd invalid in math mode on input line 77.
+
+
+LaTeX Warning: Command \cyro invalid in math mode on input line 77.
+
+
+LaTeX Warning: Command \cyrb invalid in math mode on input line 77.
+
+
+LaTeX Warning: Command \cyri invalid in math mode on input line 77.
+
+
+LaTeX Warning: Command \cyrt invalid in math mode on input line 77.
+
+
+LaTeX Warning: Command \cyrs invalid in math mode on input line 77.
+
+
+LaTeX Warning: Command \cyrya invalid in math mode on input line 77.
+
+
+LaTeX Warning: Command \cyrd invalid in math mode on input line 77.
+
+
+LaTeX Warning: Command \cyrl invalid in math mode on input line 77.
+
+
+LaTeX Warning: Command \cyrya invalid in math mode on input line 77.
+
+
+LaTeX Warning: Command \cyrr invalid in math mode on input line 77.
+
+
+LaTeX Warning: Command \cyra invalid in math mode on input line 77.
+
+
+LaTeX Warning: Command \cyrs invalid in math mode on input line 77.
+
+
+LaTeX Warning: Command \cyrch invalid in math mode on input line 77.
+
+
+LaTeX Warning: Command \cyre invalid in math mode on input line 77.
+
+
+LaTeX Warning: Command \cyrt invalid in math mode on input line 77.
+
+
+LaTeX Warning: Command \cyra invalid in math mode on input line 77.
+
+
+LaTeX Warning: Command \cyru invalid in math mode on input line 77.
+
+
+LaTeX Warning: Command \cyrs invalid in math mode on input line 77.
+
+
+LaTeX Warning: Command \cyrl invalid in math mode on input line 77.
+
+
+LaTeX Warning: Command \cyro invalid in math mode on input line 77.
+
+
+LaTeX Warning: Command \cyrv invalid in math mode on input line 77.
+
+
+LaTeX Warning: Command \cyrn invalid in math mode on input line 77.
+
+
+LaTeX Warning: Command \cyro invalid in math mode on input line 77.
+
+
+LaTeX Warning: Command \cyrg invalid in math mode on input line 77.
+
+
+LaTeX Warning: Command \cyro invalid in math mode on input line 77.
+
+
+LaTeX Warning: Command \cyrm invalid in math mode on input line 77.
+
+
+LaTeX Warning: Command \cyra invalid in math mode on input line 77.
+
+
+LaTeX Warning: Command \cyrt invalid in math mode on input line 77.
+
+
+LaTeX Warning: Command \cyro invalid in math mode on input line 77.
+
+
+LaTeX Warning: Command \cyrzh invalid in math mode on input line 77.
+
+
+LaTeX Warning: Command \cyri invalid in math mode on input line 77.
+
+
+LaTeX Warning: Command \cyrd invalid in math mode on input line 77.
+
+
+LaTeX Warning: Command \cyra invalid in math mode on input line 77.
+
+
+LaTeX Warning: Command \cyrn invalid in math mode on input line 77.
+
+
+LaTeX Warning: Command \cyri invalid in math mode on input line 77.
+
+
+LaTeX Warning: Command \cyrya invalid in math mode on input line 77.
+
+
+LaTeX Warning: Command \cyrd invalid in math mode on input line 77.
+
+
+LaTeX Warning: Command \cyro invalid in math mode on input line 77.
+
+
+LaTeX Warning: Command \cyrh invalid in math mode on input line 77.
+
+
+LaTeX Warning: Command \cyro invalid in math mode on input line 77.
+
+
+LaTeX Warning: Command \cyrd invalid in math mode on input line 77.
+
+
+LaTeX Warning: Command \cyrn invalid in math mode on input line 77.
+
+
+LaTeX Warning: Command \cyro invalid in math mode on input line 77.
+
+
+LaTeX Warning: Command \cyrs invalid in math mode on input line 77.
+
+
+LaTeX Warning: Command \cyrt invalid in math mode on input line 77.
+
+
+LaTeX Warning: Command \cyre invalid in math mode on input line 77.
+
+
+LaTeX Warning: Command \cyrishrt invalid in math mode on input line 77.
+
+
+LaTeX Warning: Command \cyra invalid in math mode on input line 77.
+
+
+LaTeX Warning: Command \cyrk invalid in math mode on input line 77.
+
+
+LaTeX Warning: Command \cyrc invalid in math mode on input line 77.
+
+
+LaTeX Warning: Command \cyri invalid in math mode on input line 77.
+
+
+LaTeX Warning: Command \cyrishrt invalid in math mode on input line 77.
+
+Missing character: There is no œ in font cmr10!
+Missing character: There is no Ó in font cmr10!
+Missing character: There is no ‰ in font cmr10!
+Missing character: There is no · in font cmr10!
+Missing character: There is no Ó in font cmr10!
+Missing character: There is no  in font cmr10!
+Missing character: There is no Ô in font cmr10!
+Missing character: There is no ‡ in font cmr10!
+Missing character: There is no  in font cmr10!
+Missing character: There is no ‡ in font cmr10!
+Missing character: There is no Ï in font cmr10!
+Missing character: There is no Â in font cmr10!
+Missing character: There is no Ú in font cmr10!
+Missing character: There is no  in font cmr10!
+Missing character: There is no Ó in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ë in font cmr10!
+Missing character: There is no ‰ in font cmr10!
+Missing character: There is no Î in font cmr10!
+Missing character: There is no ˇ in font cmr10!
+Missing character: There is no Ï in font cmr10!
+Missing character: There is no Ó in font cmr10!
+Missing character: There is no ‰ in font cmr10!
+Missing character: There is no Â in font cmr10!
+Missing character: There is no Î in font cmr10!
+Missing character: There is no Ë in font cmr10!
+Missing character: There is no ‰ in font cmr10!
+Missing character: There is no Â in font cmr10!
+Missing character: There is no Î in font cmr10!
+Missing character: There is no ‡ in font cmr10!
+Missing character: There is no Â in font cmr10!
+Missing character: There is no Ú in font cmr10!
+Missing character: There is no Ò in font cmr10!
+Missing character: There is no ˇ in font cmr10!
+Missing character: There is no Ô in font cmr10!
+Missing character: There is no  in font cmr10!
+Missing character: There is no Ó in font cmr10!
+Missing character: There is no Ò in font cmr10!
+Missing character: There is no Ú in font cmr10!
+Missing character: There is no ˚ in font cmr10!
+Missing character: There is no Ï in font cmr10!
+Missing character: There is no Ô in font cmr10!
+Missing character: There is no Â in font cmr10!
+Missing character: There is no  in font cmr10!
+Missing character: There is no Â in font cmr10!
+Missing character: There is no · in font cmr10!
+Missing character: There is no Ó in font cmr10!
+Missing character: There is no  in font cmr10!
+Missing character: There is no Ó in font cmr10!
+Missing character: There is no Ï in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no  in font cmr10!
+Missing character: There is no Â in font cmr10!
+Missing character: There is no Á in font cmr10!
+Missing character: There is no Û in font cmr10!
+Missing character: There is no Î in font cmr10!
+Missing character: There is no ¸ in font cmr10!
+Missing character: There is no Ú in font cmr10!
+Missing character: There is no ‡ in font cmr10!
+Missing character: There is no Ú in font cmr10!
+Missing character: There is no Â in font cmr10!
+Missing character: There is no Í in font cmr10!
+Missing character: There is no Ó in font cmr10!
+Missing character: There is no Ú in font cmr10!
+Missing character: There is no Ó in font cmr10!
+Missing character: There is no  in font cmr10!
+Missing character: There is no Ó in font cmr10!
+Missing character: There is no „ in font cmr10!
+Missing character: There is no Ó in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no ˚ in font cmr10!
+Missing character: There is no · in font cmr10!
+Missing character: There is no Ë in font cmr10!
+Missing character: There is no  in font cmr10!
+Missing character: There is no ‡ in font cmr10!
+Missing character: There is no ˛ in font cmr10!
+Missing character: There is no Ú in font cmr10!
+Missing character: There is no Ò in font cmr10!
+Missing character: There is no ˇ in font cmr10!
+Missing character: There is no Ô in font cmr10!
+Missing character: There is no ‡ in font cmr10!
+Missing character: There is no  in font cmr10!
+Missing character: There is no ‡ in font cmr10!
+Missing character: There is no Ï in font cmr10!
+Missing character: There is no Â in font cmr10!
+Missing character: There is no Ú in font cmr10!
+Missing character: There is no  in font cmr10!
+Missing character: There is no ˚ in font cmr10!
+Missing character: There is no Ò in font cmr10!
+Missing character: There is no Í in font cmr10!
+Missing character: There is no Ó in font cmr10!
+Missing character: There is no Ú in font cmr10!
+Missing character: There is no Ó in font cmr10!
+Missing character: There is no  in font cmr10!
+Missing character: There is no ˚ in font cmr10!
+Missing character: There is no Ï in font cmr10!
+Missing character: There is no Ë in font cmr10!
+Missing character: There is no Ï in font cmr10!
+Missing character: There is no Ó in font cmr10!
+Missing character: There is no ‰ in font cmr10!
+Missing character: There is no Â in font cmr10!
+Missing character: There is no Î in font cmr10!
+Missing character: There is no ¸ in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no ˚ in font cmr10!
+Missing character: There is no ‰ in font cmr10!
+Missing character: There is no ‡ in font cmr10!
+Missing character: There is no Â in font cmr10!
+Missing character: There is no Ú in font cmr10!
+Missing character: There is no Ì in font cmr10!
+Missing character: There is no ‡ in font cmr10!
+Missing character: There is no Ë in font cmr10!
+Missing character: There is no Ï in font cmr10!
+Missing character: There is no Â in font cmr10!
+Missing character: There is no Ì in font cmr10!
+Missing character: There is no ¸ in font cmr10!
+Missing character: There is no ¯ in font cmr10!
+Missing character: There is no Ë in font cmr10!
+Missing character: There is no È in font cmr10!
+Missing character: There is no Ô in font cmr10!
+Missing character: There is no Ó in font cmr10!
+Missing character: There is no Í in font cmr10!
+Missing character: There is no ‡ in font cmr10!
+Missing character: There is no Á in font cmr10!
+Missing character: There is no ‡ in font cmr10!
+Missing character: There is no Ú in font cmr10!
+Missing character: There is no Â in font cmr10!
+Missing character: There is no Î in font cmr10!
+Missing character: There is no ¸ in font cmr10!
+Missing character: There is no “ in font cmr10!
+Missing character: There is no ‡ in font cmr10!
+Missing character: There is no Í in font cmr10!
+Missing character: There is no Ó in font cmr10!
+Missing character: There is no È in font cmr10!
+Missing character: There is no Ô in font cmr10!
+Missing character: There is no Â in font cmr10!
+Missing character: There is no  in font cmr10!
+Missing character: There is no Â in font cmr10!
+Missing character: There is no · in font cmr10!
+Missing character: There is no Ó in font cmr10!
+Missing character: There is no  in font cmr10!
+Missing character: There is no ‰ in font cmr10!
+Missing character: There is no Â in font cmr10!
+Missing character: There is no Î in font cmr10!
+Missing character: There is no ‡ in font cmr10!
+Missing character: There is no Â in font cmr10!
+Missing character: There is no Ú in font cmr10!
+Missing character: There is no Ò in font cmr10!
+Missing character: There is no ˇ in font cmr10!
+Missing character: There is no Ì in font cmr10!
+Missing character: There is no ‡ in font cmr10!
+Missing character: There is no ‰ in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ò in font cmr10!
+Missing character: There is no Â in font cmr10!
+Missing character: There is no Ï in font cmr10!
+Missing character: There is no Ë in font cmr10!
+Missing character: There is no  in font cmr10!
+Missing character: There is no ˇ in font cmr10!
+Missing character: There is no ‰ in font cmr10!
+Missing character: There is no ‡ in font cmr10!
+Missing character: There is no Ï in font cmr10!
+Missing character: There is no Ë in font cmr10!
+Missing character: There is no ‰ in font cmr10!
+Missing character: There is no ‡ in font cmr10!
+Missing character: There is no Ì in font cmr10!
+Missing character: There is no Ì in font cmr10!
+Missing character: There is no ˚ in font cmr10!
+Missing character: There is no ı in font cmr10!
+Missing character: There is no Ë in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no ˚ in font cmr10!
+Missing character: There is no · in font cmr10!
+Missing character: There is no Ë in font cmr10!
+Missing character: There is no  in font cmr10!
+Missing character: There is no ‡ in font cmr10!
+Missing character: There is no Â in font cmr10!
+Missing character: There is no Ú in font cmr10!
+Missing character: There is no Ò in font cmr10!
+Missing character: There is no ˇ in font cmr10!
+Missing character: There is no Ì in font cmr10!
+Missing character: There is no ‡ in font cmr10!
+Missing character: There is no Ë in font cmr10!
+Missing character: There is no · in font cmr10!
+Missing character: There is no Ó in font cmr10!
+Missing character: There is no Î in font cmr10!
+Missing character: There is no Â in font cmr10!
+Missing character: There is no Â in font cmr10!
+Missing character: There is no ˜ in font cmr10!
+Missing character: There is no ‡ in font cmr10!
+Missing character: There is no Ò in font cmr10!
+Missing character: There is no Ú in font cmr10!
+Missing character: There is no Ó in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ò in font cmr10!
+Missing character: There is no Ú in font cmr10!
+Missing character: There is no  in font cmr10!
+Missing character: There is no Â in font cmr10!
+Missing character: There is no ˜ in font cmr10!
+Missing character: There is no ‡ in font cmr10!
+Missing character: There is no ˛ in font cmr10!
+Missing character: There is no ˘ in font cmr10!
+Missing character: There is no Ë in font cmr10!
+Missing character: There is no È in font cmr10!
+Missing character: There is no Ò in font cmr10!
+Missing character: There is no ˇ in font cmr10!
+Missing character: There is no Ì in font cmr10!
+Missing character: There is no ‡ in font cmr10!
+Missing character: There is no · in font cmr10!
+Missing character: There is no Ó in font cmr10!
+Missing character: There is no  in font cmr10!
+Missing character: There is no ƒ in font cmr10!
+Missing character: There is no Î in font cmr10!
+Missing character: There is no ˇ in font cmr10!
+Missing character: There is no Ù in font cmr10!
+Missing character: There is no Ë in font cmr10!
+Missing character: There is no Î in font cmr10!
+Missing character: There is no ¸ in font cmr10!
+Missing character: There is no Ú in font cmr10!
+Missing character: There is no  in font cmr10!
+Missing character: There is no Ó in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no ‡ in font cmr10!
+Missing character: There is no Ì in font cmr10!
+Missing character: There is no Ì in font cmr10!
+Missing character: There is no ˚ in font cmr10!
+Missing character: There is no ı in font cmr10!
+Missing character: There is no  in font cmr10!
+Missing character: There is no ˇ in font cmr10!
+Missing character: There is no ‰ in font cmr10!
+Missing character: There is no Ó in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no  in font cmr10!
+Missing character: There is no ‡ in font cmr10!
+Missing character: There is no Ò in font cmr10!
+Missing character: There is no Ò in font cmr10!
+Missing character: There is no ˜ in font cmr10!
+Missing character: There is no Ë in font cmr10!
+Missing character: There is no Ú in font cmr10!
+Missing character: There is no ˚ in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no ‡ in font cmr10!
+Missing character: There is no Â in font cmr10!
+Missing character: There is no Ú in font cmr10!
+Missing character: There is no Ò in font cmr10!
+Missing character: There is no ˇ in font cmr10!
+Missing character: There is no Í in font cmr10!
+Missing character: There is no Ó in font cmr10!
+Missing character: There is no  in font cmr10!
+Missing character: There is no  in font cmr10!
+Missing character: There is no Â in font cmr10!
+Missing character: There is no Î in font cmr10!
+Missing character: There is no ˇ in font cmr10!
+Missing character: There is no ˆ in font cmr10!
+Missing character: There is no Ë in font cmr10!
+Missing character: There is no Ó in font cmr10!
+Missing character: There is no Ì in font cmr10!
+Missing character: There is no Ì in font cmr10!
+Missing character: There is no ‡ in font cmr10!
+Missing character: There is no ˇ in font cmr10!
+Missing character: There is no Ï in font cmr10!
+Missing character: There is no ‡ in font cmr10!
+Missing character: There is no Ú in font cmr10!
+Missing character: There is no  in font cmr10!
+Missing character: There is no Ë in font cmr10!
+Missing character: There is no ˆ in font cmr10!
+Missing character: There is no ‡ in font cmr10!
+Missing character: There is no Œ in font cmr10!
+Missing character: There is no Ì in font cmr10!
+Missing character: There is no ‡ in font cmr10!
+Missing character: There is no Ô in font cmr10!
+Missing character: There is no Ó in font cmr10!
+Missing character: There is no Ì in font cmr10!
+Missing character: There is no ‡ in font cmr10!
+Missing character: There is no ‰ in font cmr10!
+Missing character: There is no Ó in font cmr10!
+Missing character: There is no · in font cmr10!
+Missing character: There is no Ë in font cmr10!
+Missing character: There is no Ú in font cmr10!
+Missing character: There is no Ò in font cmr10!
+Missing character: There is no ˇ in font cmr10!
+Missing character: There is no ‰ in font cmr10!
+Missing character: There is no Î in font cmr10!
+Missing character: There is no ˇ in font cmr10!
+Missing character: There is no  in font cmr10!
+Missing character: There is no ‡ in font cmr10!
+Missing character: There is no Ò in font cmr10!
+Missing character: There is no ˜ in font cmr10!
+Missing character: There is no Â in font cmr10!
+Missing character: There is no Ú in font cmr10!
+Missing character: There is no ‡ in font cmr10!
+Missing character: There is no Û in font cmr10!
+Missing character: There is no Ò in font cmr10!
+Missing character: There is no Î in font cmr10!
+Missing character: There is no Ó in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ì in font cmr10!
+Missing character: There is no Ó in font cmr10!
+Missing character: There is no „ in font cmr10!
+Missing character: There is no Ó in font cmr10!
+Missing character: There is no Ï in font cmr10!
+Missing character: There is no ‡ in font cmr10!
+Missing character: There is no Ú in font cmr10!
+Missing character: There is no Ó in font cmr10!
+Missing character: There is no Ê in font cmr10!
+Missing character: There is no Ë in font cmr10!
+Missing character: There is no ‰ in font cmr10!
+Missing character: There is no ‡ in font cmr10!
+Missing character: There is no Ì in font cmr10!
+Missing character: There is no Ë in font cmr10!
+Missing character: There is no ˇ in font cmr10!
+Missing character: There is no ‰ in font cmr10!
+Missing character: There is no Ó in font cmr10!
+Missing character: There is no ı in font cmr10!
+Missing character: There is no Ó in font cmr10!
+Missing character: There is no ‰ in font cmr10!
+Missing character: There is no Ì in font cmr10!
+Missing character: There is no Ó in font cmr10!
+Missing character: There is no Ò in font cmr10!
+Missing character: There is no Ú in font cmr10!
+Missing character: There is no Â in font cmr10!
+Missing character: There is no È in font cmr10!
+Missing character: There is no ‡ in font cmr10!
+Missing character: There is no Í in font cmr10!
+Missing character: There is no ˆ in font cmr10!
+Missing character: There is no Ë in font cmr10!
+Missing character: There is no È in font cmr10!
+! Undefined control sequence.
+<recently read> \oveline 
+                         
+l.78 $$\oveline
+               {\mu} = \mu_i + \sigma_i(t) \cdot R_{i,J} \cdot R_J^{-1} \cdo...
+
+? 
+! Undefined control sequence.
+l.78 ...) \cdot R_{i,J} \cdot R_J^{-1} \cdot \freq
+                                                  {r_{i,J} - \mu_J}{\sigma_{...
+
+? 
+
+LaTeX Warning: Command \cyrg invalid in math mode on input line 79.
+
+
+LaTeX Warning: Command \cyrd invalid in math mode on input line 79.
+
+
+LaTeX Warning: Command \cyre invalid in math mode on input line 79.
+
+Missing character: There is no „ in font cmr10!
+Missing character: There is no ‰ in font cmr10!
+Missing character: There is no Â in font cmr10!
+! You can't use a prefix with `end-group character }'.
+<to be read again> 
+                   \egroup 
+l.79 –≥–¥–µ $J = {1,\.\.
+                        \.,n} \\ {i}$, $R_J$ —ç—Ç–æ –º–∞—Ç—Ä–∏—Ü–∞ –±–µ–∑ $i...
+
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+l.79 –≥–¥–µ $J = {1,\.\.\.,n} \\ {i}$
+                                     , $R_J$ —ç—Ç–æ –º–∞—Ç—Ä–∏—Ü–∞ –±–µ–∑ $i...
+
+? 
+! Display math should end with $$.
+<to be read again> 
+                   ,
+l.79 –≥–¥–µ $J = {1,\.\.\.,n} \\ {i}$,
+                                       $R_J$ —ç—Ç–æ –º–∞—Ç—Ä–∏—Ü–∞ –±–µ–∑ $i...
+
+? 
+
+! LaTeX Error: Command \CYRV unavailable in encoding OT1.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.133 \section{–ê–ª–≥–æ—Ä–∏—Ç–º}
-                                
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: Command \cyrl unavailable in encoding OT1.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
+l.90 ...ion{–í–æ–∑–º–æ–∂–Ω—ã–µ —É–ª—É—á—à–µ–Ω–∏—è}
                                                   
-l.133 \section{–ê–ª–≥–æ—Ä–∏—Ç–º}
-                                
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: Command \cyrg unavailable in encoding OT1.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.133 \section{–ê–ª–≥–æ—Ä–∏—Ç–º}
-                                
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
+? 
 
 ! LaTeX Error: Command \cyro unavailable in encoding OT1.
 
@@ -1208,51 +2500,19 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.133 \section{–ê–ª–≥–æ—Ä–∏—Ç–º}
-                                
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
+l.90 ...ion{–í–æ–∑–º–æ–∂–Ω—ã–µ —É–ª—É—á—à–µ–Ω–∏—è}
+                                                  
+? 
 
-
-! LaTeX Error: Command \cyrr unavailable in encoding OT1.
+! LaTeX Error: Command \cyrz unavailable in encoding OT1.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.133 \section{–ê–ª–≥–æ—Ä–∏—Ç–º}
-                                
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: Command \cyri unavailable in encoding OT1.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
+l.90 ...ion{–í–æ–∑–º–æ–∂–Ω—ã–µ —É–ª—É—á—à–µ–Ω–∏—è}
                                                   
-l.133 \section{–ê–ª–≥–æ—Ä–∏—Ç–º}
-                                
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: Command \cyrt unavailable in encoding OT1.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.133 \section{–ê–ª–≥–æ—Ä–∏—Ç–º}
-                                
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
+? 
 
 ! LaTeX Error: Command \cyrm unavailable in encoding OT1.
 
@@ -1260,68 +2520,186 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.133 \section{–ê–ª–≥–æ—Ä–∏—Ç–º}
-                                
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
+l.90 ...ion{–í–æ–∑–º–æ–∂–Ω—ã–µ —É–ª—É—á—à–µ–Ω–∏—è}
+                                                  
+? 
 
+! LaTeX Error: Command \cyro unavailable in encoding OT1.
 
-Underfull \hbox (badness 1642) in paragraph at lines 141--142
-\T2A/XCharter-TLF/m/n/10 (+20) id libero. Mauris quis lectus at ante scelerisqu
-e
- []
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.90 ...ion{–í–æ–∑–º–æ–∂–Ω—ã–µ —É–ª—É—á—à–µ–Ω–∏—è}
+                                                  
+? 
 
+! LaTeX Error: Command \cyrzh unavailable in encoding OT1.
 
-Underfull \hbox (badness 1968) in paragraph at lines 141--142
-\T2A/XCharter-TLF/m/n/10 (+20) sodales sed. Curabitur eu diam nulla. Duis nec
- []
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.90 ...ion{–í–æ–∑–º–æ–∂–Ω—ã–µ —É–ª—É—á—à–µ–Ω–∏—è}
+                                                  
+? 
 
-[3]
-Underfull \hbox (badness 1603) in paragraph at lines 147--148
-\T2A/XCharter-TLF/m/n/10 (+20) accumsan. Aliquam aliquet consectetur tortor, at
+! LaTeX Error: Command \cyrn unavailable in encoding OT1.
 
- []
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.90 ...ion{–í–æ–∑–º–æ–∂–Ω—ã–µ —É–ª—É—á—à–µ–Ω–∏—è}
+                                                  
+? 
 
+! LaTeX Error: Command \cyrery unavailable in encoding OT1.
 
-Underfull \hbox (badness 1817) in paragraph at lines 153--154
-\T2A/XCharter-TLF/m/n/10 (+20) purus sit amet felis. Fusce elementum maximus
- []
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.90 ...ion{–í–æ–∑–º–æ–∂–Ω—ã–µ —É–ª—É—á—à–µ–Ω–∏—è}
+                                                  
+? 
 
+! LaTeX Error: Command \cyre unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.90 ...ion{–í–æ–∑–º–æ–∂–Ω—ã–µ —É–ª—É—á—à–µ–Ω–∏—è}
+                                                  
+? 
+
+! LaTeX Error: Command \cyru unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.90 ...ion{–í–æ–∑–º–æ–∂–Ω—ã–µ —É–ª—É—á—à–µ–Ω–∏—è}
+                                                  
+? 
+
+! LaTeX Error: Command \cyrl unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.90 ...ion{–í–æ–∑–º–æ–∂–Ω—ã–µ —É–ª—É—á—à–µ–Ω–∏—è}
+                                                  
+? 
+
+! LaTeX Error: Command \cyru unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.90 ...ion{–í–æ–∑–º–æ–∂–Ω—ã–µ —É–ª—É—á—à–µ–Ω–∏—è}
+                                                  
+? 
+
+! LaTeX Error: Command \cyrch unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.90 ...ion{–í–æ–∑–º–æ–∂–Ω—ã–µ —É–ª—É—á—à–µ–Ω–∏—è}
+                                                  
+? 
+
+! LaTeX Error: Command \cyrsh unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.90 ...ion{–í–æ–∑–º–æ–∂–Ω—ã–µ —É–ª—É—á—à–µ–Ω–∏—è}
+                                                  
+? 
+
+! LaTeX Error: Command \cyre unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.90 ...ion{–í–æ–∑–º–æ–∂–Ω—ã–µ —É–ª—É—á—à–µ–Ω–∏—è}
+                                                  
+? 
+
+! LaTeX Error: Command \cyrn unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.90 ...ion{–í–æ–∑–º–æ–∂–Ω—ã–µ —É–ª—É—á—à–µ–Ω–∏—è}
+                                                  
+? 
+
+! LaTeX Error: Command \cyri unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.90 ...ion{–í–æ–∑–º–æ–∂–Ω—ã–µ —É–ª—É—á—à–µ–Ω–∏—è}
+                                                  
+? 
+
+! LaTeX Error: Command \cyrya unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.90 ...ion{–í–æ–∑–º–æ–∂–Ω—ã–µ —É–ª—É—á—à–µ–Ω–∏—è}
+                                                  
+? 
 
 AED: lastpage setting LastPage
-[4] (./cross-section-mean-revertion-report.aux)
-
-LaTeX Warning: There were undefined references.
+[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
 
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+]
+LaTeX Font Info:    Font shape `T2A/XCharter-TLF/m/it' will be
+(Font)              scaled to size 10.0pt on input line 104.
+LaTeX Font Info:    Font shape `T2A/XCharter-TLF/m/n' will be
+(Font)              scaled to size 8.0pt on input line 104.
+ [2
 
- ) 
+]
+(./cross-section-mean-revertion-report.aux) ) 
 Here is how much of TeX's memory you used:
- 9867 strings out of 481239
- 152106 string characters out of 5920377
- 450360 words of memory out of 5000000
- 24856 multiletter control sequences out of 15000+600000
- 589943 words of font info for 103 fonts, out of 8000000 for 9000
+ 9826 strings out of 481239
+ 150504 string characters out of 5920377
+ 448060 words of memory out of 5000000
+ 24851 multiletter control sequences out of 15000+600000
+ 567194 words of font info for 75 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 44i,14n,77p,915b,422s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texlive/texmf-dist/fonts/enc/dvips/xcharter/xch_q7u3cc.enc}{/usr/
-share/texlive/texmf-dist/fonts/enc/dvips/xcharter/xch_cxo25j.enc}{/usr/share/te
-xlive/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/share/texlive/texmf-dist/fon
-ts/enc/dvips/xcharter/xch_uy5hgr.enc}</usr/share/texlive/texmf-dist/fonts/type1
-/public/xcharter/XCharter-Bold.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
-ublic/xcharter/XCharter-Italic.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
-ublic/xcharter/XCharter-Roman.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
-blic/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
-msfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
-r7.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb>
-Output written on cross-section-mean-revertion-report.pdf (4 pages, 208341 byte
+ 44i,11n,47p,914b,302s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texlive/texmf-dist/fon
+ts/enc/dvips/xcharter/xch_cxo25j.enc}{/usr/share/texlive/texmf-dist/fonts/enc/d
+vips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/xcharter/XCh
+arter-Italic.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/xcharter/XCh
+arter-Roman.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
+mmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.p
+fb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/shar
+e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texli
+ve/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb>
+Output written on cross-section-mean-revertion-report.pdf (2 pages, 151932 byte
 s).
 PDF statistics:
- 57 PDF objects out of 1000 (max. 8388607)
- 42 compressed objects within 1 object stream
+ 45 PDF objects out of 1000 (max. 8388607)
+ 32 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 25601 words of extra memory for PDF output out of 29859 (max. 10000000)
+ 14337 words of extra memory for PDF output out of 14400 (max. 10000000)
 

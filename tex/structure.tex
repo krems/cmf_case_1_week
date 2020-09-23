@@ -19,7 +19,7 @@
 %	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
 %----------------------------------------------------------------------------------------
 
-\usepackage[russian]{babel} % English language hyphenation
+\usepackage[english,main=russian]{babel} % English language hyphenation
 
 \usepackage{microtype} % Better typography
 
@@ -63,7 +63,7 @@
 %	FONTS
 %----------------------------------------------------------------------------------------
 
-%\usepackage[T1]{fontenc} % Output font encoding for international characters
+\usepackage[T1]{fontenc} % Output font encoding for international characters
 \usepackage[utf8]{inputenc} % Required for inputting international characters
 
 \usepackage{XCharter} % Use the XCharter font
@@ -147,6 +147,30 @@
 	\initial{\firstletter}\textbf{\StrGobbleLeft{#1}{1}} % Print the abstract with the first letter as a lettrine and the rest in bold
 }
 
+\def\mybibname{\fontencoding{T2A}\selectfont
+\CYRL\cyri\cyrt\cyre\cyrr\cyra\cyrt\cyru\cyrr\cyra}
+\def\myshortname{%%%
+\fontencoding{T2A}\selectfont
+  \CYRM\cyro\cyrd\cyre\cyrl.
+  \cyri{}
+  \cyra\cyrn\cyra\cyrl\cyri\cyrz{}
+  \cyri\cyrn\cyrf\cyro\cyrr\cyrm.
+  \cyrs\cyri\cyrs\cyrt\cyre\cyrm.{}
+}
+\def\mylongname{%%%
+\fontencoding{T2A}\selectfont
+  \CYRM\cyro\cyrd\cyre\cyrl\cyri\cyrr\cyro\cyrv\cyra\cyrn\cyri\cyre{}
+  \cyri{}
+  \cyra\cyrn\cyra\cyrl\cyri\cyrz{}
+  \cyri\cyrn\cyrf\cyro\cyrr\cyrm\cyra\cyrc\cyri\cyro\cyrn\cyrn\cyrery\cyrh{}
+  \cyrs\cyri\cyrs\cyrt\cyre\cyrm{}
+}
+\def\myrecname{\fontencoding{T2A}\selectfont
+\cyrp\cyro\cyrl\cyru\cyrch\cyre\cyrn\cyra}
+\def\myvolname{\fontencoding{T2A}\selectfont
+\CYRT.}
+\def\myUDCname{\fontencoding{T2A}\selectfont
+\CYRU\CYRD\CYRK}
 %----------------------------------------------------------------------------------------
 %	BIBLIOGRAPHY
 %----------------------------------------------------------------------------------------

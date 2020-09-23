@@ -30,7 +30,7 @@
 \title{Implementing Cross-Section Performance Reversion} % The article title
 
 \author{
-	\authorstyle{Valerii Ovchinnikov} % Authors
+	\authorstyle{Valery Ovchinnikov} % Authors
 }
 
 % Example of a one line author/institution relationship
@@ -49,8 +49,6 @@
 %----------------------------------------------------------------------------------------
 %	ABSTRACT
 %----------------------------------------------------------------------------------------
-
-\lettrineabstract{Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce maximus nisi ligula. Morbi laoreet ex ligula, vitae lobortis purus mattis vel. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec ac metus ut turpis mollis placerat et nec enim. Duis tristique nibh maximus faucibus facilisis. Praesent in consequat leo. Maecenas condimentum ex rhoncus, elementum diam vel, malesuada ante.}
 
 %----------------------------------------------------------------------------------------
 %	ARTICLE CONTENTS
@@ -71,7 +69,7 @@ Mean-revertion широко используемая идея для страт�
 Распределение доходностей считаем нормальным. Это необходимо, чтобы в дальнейшем воспользоваться явной простой формулой для
 условного матожидания.
 $$r_i(t) = \mu_i +  \epsilon_i(t)$$\\
-$$\epsilon(t) \~ \sigma(t) \cdot \mathcal{N(0, R)}$$\\
+$$\epsilon(t) \~ \sigma(t) \cdot N(0, R)$$\\
 $$\sigma_i^2(t) = \omega_i + \alpha_i \cdot \epsilon_i^2(t-1) + \beta_i \cdot \sigma_i^2(t-1)$$\\
 Подбор параметров AR и MV для модели GARCH делается простым перебором, в результате которого выбираются параметры,
 с которыми модель выдает наименьший показатель AIC. Такой перебор делается над всеми рядами данных и выбирается наиболее
@@ -85,33 +83,23 @@ $r'_i(t) = r_i(t) - \beta_{i, mkt} * r_{mkt}(t)$
 Таким образом вычищаются совместные движения доходностей отдельных акций с рынком.\\
 Сигнал (aka альфа) получается следующим: $\alpha_i(t) = \overline{\mu} + (\overline{\mu} - r_i(t))$. То есть на
 следующем шаге ожидается доходность $\overline{\mu}$ и дополнительная доходность от возвращения к среднему с прошлого
-шага $\overline{\mu} - r_i$.
+шага $\overline{\mu} - r_i$.\\
+Модель GARCH перефичивается каждые 30 дней. Размер окна выбран произвольный, не оптимизирован никак, 200 дней,
+чтобы зацепить почти весь год.
 
-
-%\begin{figure}
-%	\includegraphics[width=\linewidth]{bear.jpg} % Figure image
-%	\caption{A majestic grizzly bear} % Figure caption
-%	\label{bear} % Label for referencing with \ref{bear}
-%\end{figure}
-
-In hac habitasse platea dictumst. Vivamus eu finibus leo. Donec malesuada dui non sagittis auctor. Aenean condimentum eros metus. Nunc tempus id velit ut tempus. Quisque fermentum, nisl sit amet consectetur ornare, nunc leo luctus leo, vitae mattis odio augue id libero. Mauris quis lectus at ante scelerisque sollicitudin in eu nisi. Nulla elit lacus, ultricies eu erat congue, venenatis semper turpis. Ut nec venenatis velit. Mauris lacinia diam diam, ac egestas neque sodales sed. Curabitur eu diam nulla. Duis nec turpis finibus, commodo diam sed, bibendum erat. Nunc in velit ullamcorper, posuere libero a, mollis mauris. Nulla vehicula quam id tortor ornare blandit. Aenean maximus tempor orci ultrices placerat. Aenean condimentum magna vulputate erat mattis feugiat.
-
-Quisque lacinia, purus id mattis gravida, sem enim fringilla erat, non dapibus est tellus pellentesque velit. Vivamus pretium sem quis leo placerat, at dignissim ex iaculis. Donec neque tortor, pharetra quis vestibulum id, tempus scelerisque mi. Cras in mattis est. Integer nec lorem rutrum, semper ligula bibendum, iaculis neque. Sed in nunc placerat, viverra dui in, fringilla sem. Sed quis rutrum magna, vitae pellentesque eros.
-
-Praesent maximus mauris vitae nisl pulvinar, at tristique tortor aliquam. Etiam sit amet nunc in nulla vulputate sollicitudin. Aliquam erat volutpat. Praesent pharetra gravida cursus. Quisque vulputate lacus nunc. Integer orci ex, porttitor quis sapien id, eleifend gravida mi. Etiam efficitur justo eget nulla congue mattis. Duis commodo vel arcu a pretium. Aenean eleifend viverra nisl, nec ornare lacus rutrum in.
-
-Vivamus pulvinar ac eros eu pellentesque. Duis nibh felis, sagittis sed lacus at, sagittis mattis nisi. Fusce ante dui, tincidunt in scelerisque ut, sagittis at magna. Fusce tincidunt felis et odio tincidunt imperdiet. Cras ut facilisis nisl. Aliquam vitae consequat metus, eget gravida augue. In imperdiet justo quis nulla venenatis accumsan. Aliquam aliquet consectetur tortor, at sollicitudin sapien porta sed. Donec efficitur mauris id rhoncus volutpat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Sed bibendum purus dapibus tincidunt euismod. Nullam malesuada ultrices lacus, ut tincidunt dolor. Etiam imperdiet quam eget elit tincidunt scelerisque. Curabitur ut ullamcorper dui. Cras gravida porta leo, ut lobortis nisl venenatis pulvinar. Proin non semper nulla.
-
-Praesent pretium nisl purus, id mollis nibh efficitur sed. Sed sit amet urna leo. Nulla sed imperdiet sem. Donec ut diam tristique, faucibus ligula vel, varius est. In ipsum ligula, elementum vitae velit ac, viverra tincidunt enim. Phasellus gravida diam id nisl interdum maximus. Ut semper, tortor vitae congue pharetra, justo odio commodo urna, vel tempus libero ex et risus. Vivamus commodo felis non venenatis rutrum. Sed pulvinar scelerisque augue in porta. Sed maximus libero nec tellus malesuada elementum. Proin non augue posuere, pellentesque felis viverra, varius urna. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec dignissim urna eget diam dictum, eget facilisis libero pulvinar.
-
-Aliquam ex tellus, hendrerit sed odio sit amet, facilisis elementum enim. Suspendisse potenti. Integer molestie ac augue sit amet fermentum. Vivamus ultrices ante nulla, vitae venenatis ipsum ullamcorper sed. Phasellus gravida felis sapien, ac porta purus pharetra quis. Sed eget augue tellus. Nam vitae hendrerit arcu, id iaculis ipsum. Pellentesque sed magna tortor.
-
-In ac tempus diam. Sed nec lobortis massa, suscipit accumsan justo. Quisque porttitor, ligula a semper euismod, urna diam dictum sem, sed maximus risus purus sit amet felis. Fusce elementum maximus nisi a mattis. Nulla vitae elit erat. Integer sit amet commodo risus, eget elementum nulla. Donec ultricies erat sit amet sem commodo iaculis. Donec euismod volutpat lacus, ut tempor est lacinia a. Vivamus auctor condimentum tincidunt. Praesent sed finibus urna. Sed pellentesque blandit magna et rhoncus.
-
-Integer vel turpis nec tellus sodales malesuada a vel odio. Fusce et lectus eu nibh rhoncus tempus vel nec elit. Suspendisse commodo orci velit, lacinia dictum odio accumsan et. Vivamus libero dui, elementum vel nibh non, fermentum venenatis risus. Aliquam sed sapien ac orci sodales tempus a eget dui. Morbi non dictum tortor, quis tincidunt nibh. Proin ut tincidunt odio.
-
-Pellentesque ac nisi dolor. Pellentesque maximus est arcu, eu scelerisque est rutrum vitae. Mauris ullamcorper vulputate vehicula. Praesent fermentum leo ac velit accumsan consectetur. Aliquam eleifend ex eros, ut lacinia tellus volutpat non. Pellentesque sit amet cursus diam. Maecenas elementum mattis est, in tincidunt ex pretium ac. Integer ultrices nunc rutrum, pretium sapien vitae, lobortis velit.
-------------------------------------------------------------------------------------
-
+\section{Возможные улучшения}
+В статье описан процесс хеджирования факторов, таких как momentum, value, volatility factor. Так же предлагается
+спользовать самофинансируемую стратегию, т.е. в каждый момент времени мы ничего не занимаем и не откладываем. И минимизировать
+exposure к рынку, т.е. выбрать такие веса, чтобы взвешенная сумма коэффициентов beta была близка к нулю. Общеизвестный
+факт, что хеджирование не увеличивает матожидание стратегии, а может только уменьшить волатильность. Так как в данном кейсе
+не стояла цель получить высокий коэффициент Шарпа, и времени было мало, было решено не реализовывать эту часть статьи.\\
+Другим возможным улучшением является изменения алгоритма рсчета обратной матрицы. По словам авторов использование псевдо
+обратной матрицы, полученной с помощью Woodbery identity, позволяет уменьшить численные ошибки в алгоритме, а также ускорить
+вычисление сигнала в несколько раз за счет инвертирования матриц маленьких рангов (2) вместо ковариационной матрицы
+(ранг равен количеству акций в портфеле).\\
+В текущей реализации достаточно поменять один параметр в коде, чтобы для моделирования среднего использовалась более сложная
+ARMA модел вместо константы. Исследование рядов, отфильтрованных таким способом показало, что автокорреляция в них ниже,
+чем при фильтрации константной моделью, однако в статье использована именно константа.
+%---------------------------------------------------
 \end{document}
 
